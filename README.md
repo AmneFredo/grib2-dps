@@ -13,16 +13,20 @@ geraDP.tgz.
 
 
 1- Instalar wgrib2
-- Descompactar: tar xvzf wgrib2.tgz
-- Mover para /usr/local: mv grib2 /usr/local
+- Descompactar: 
+>tar xvzf wgrib2.tgz
+- Mover para /usr/local: 
+>mv grib2 /usr/local
 - Para ambiente em bash: 
 >export CC=gcc && export FC=gfortran && make
 
 2- Instalar g2ctl
 
 - Modificar onde houver $wgrib2='wgrib2'; para $wgrib2='/usr/local/grib2/wgrib2/wgrib2';
-- Alterar as permissoes do arquivo: sudo chmod 755 g2ctl.pl
-- Copiar p/ o bin de todos os usuários: sudo cp g2ctl.pl /usr/bin
+- Alterar as permissoes do arquivo: 
+>sudo chmod 755 g2ctl.pl
+- Copiar p/ o bin de todos os usuários: 
+>sudo cp g2ctl.pl /usr/bin
 
 ********************** Gerando ctl de gfs.grib2 ********************** 
 
