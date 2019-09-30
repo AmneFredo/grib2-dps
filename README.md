@@ -38,6 +38,7 @@ Para utilizar no geraDP:
 No terminal: 
 gribmap -iv gfs.t00z.pgrb2.0p25.f000.ctl
 
+
 3 - Instalar geraDP
 
 Na pasta dprep do BRAMS, descompactar: 
