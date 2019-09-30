@@ -7,9 +7,9 @@ Descompactar arquivos.tgz:
 >tar xvzf arquivos.tgz 
 
 Após descompatar, trÊs arquivos surgirão: 
-wgrib.tgz, 
-g2ctl.pl e 
-geraDP.tgz. 
+*wgrib.tgz*, 
+*g2ctl.pl* e 
+*geraDP.tgz*. 
 
 
 1- Instalar wgrib2
