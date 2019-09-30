@@ -42,10 +42,10 @@ geraDP.tgz.
 - Modificações obrigatórias do geraDP.ini (para arquivos gfs nomads. Nomes definidos nos arquivos ctl, gerados no item 2):
 
 >ctl_file_name=o nome do seu ctl aqui\
->wind_u_varname='UGRDprs'
->wind_v_varname='VGRDprs'
->temperature_varname='TMPprs'
->geo_varname='HGTprs'
+>wind_u_varname='UGRDprs'\
+>wind_v_varname='VGRDprs'\
+>temperature_varname='TMPprs'\
+>geo_varname='HGTprs'\
 >ur_varname='RHprs' 
 
 4 - EXTRA: 
