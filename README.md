@@ -2,7 +2,9 @@
 Como transformar gfs (grib2) em dp (brams) do início [30/09/2019]
 
 Sugestão de download do gfs: https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/
-Descompactar arquivos.tar.xz: tar xvzf arquivos.tar.xz 
+
+Descompactar arquivos.tar.xz: 
+>tar xvzf arquivos.tar.xz 
 
 Após descompatar, trÊs arquivos surgirão: 
 wgrib.tgz, 
@@ -14,7 +16,6 @@ geraDP.tgz.
 - Descompactar: tar xvzf wgrib2.tgz
 - Mover para /usr/local: mv grib2 /usr/local
 - Para ambiente em bash: 
-
 >export CC=gcc && export FC=gfortran && make
 
 2- Instalar g2ctl
