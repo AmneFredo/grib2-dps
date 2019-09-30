@@ -9,6 +9,7 @@ wgrib.tgz,
 g2ctl.pl e 
 geraDP.tgz. 
 
+
 1- Instalar wgrib2
 Descompactar: tar xvzf wgrib2.tgz
 Mover para /usr/local: mv grib2 /usr/local
