@@ -13,9 +13,11 @@ geraDP.tgz.
 1- Instalar wgrib2
 Descompactar: tar xvzf wgrib2.tgz
 Mover para /usr/local: mv grib2 /usr/local
-Para ambiente em bash: export CC=gcc
-					   export FC=gfortran
-					   make
+Para ambiente em bash: 
+
+export CC=gcc
+export FC=gfortran
+make
 
 2- Instalar g2ctl
 
@@ -33,20 +35,25 @@ Para utilizar no geraDP:
 
 É preciso gerar um idx pelo gribmap
 
-No terminal: gribmap -iv gfs.t00z.pgrb2.0p25.f000.ctl
+No terminal: 
+gribmap -iv gfs.t00z.pgrb2.0p25.f000.ctl
 
 3 - Instalar geraDP
 
-Na pasta dprep do BRAMS, descompactar: tar xvzf geraDP.tgz
+Na pasta dprep do BRAMS, descompactar: 
+
+tar xvzf geraDP.tgz
 
 Copiar os arquivos gfs (grib2, ctl e idx) para esta mesma pasta (dprep)
 
-Modificações obrigatórias do geraDP.ini*: ctl_file_name=o nome do seu ctl aqui
-                                          wind_u_varname='UGRDprs'
-                                          wind_v_varname='VGRDprs'
-                                          temperature_varname='TMPprs'
-                                          geo_varname='HGTprs'
-                                          ur_varname='RHprs' 
+Modificações obrigatórias do geraDP.ini*:
+
+ctl_file_name=o nome do seu ctl aqui
+wind_u_varname='UGRDprs'
+wind_v_varname='VGRDprs'
+temperature_varname='TMPprs'
+geo_varname='HGTprs'
+ur_varname='RHprs' 
                                        
 * para arquivos gfs nomads. Nomes definidos nos arquivos ctl, gerados no item 2.  
 
