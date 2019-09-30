@@ -19,7 +19,9 @@ Para ambiente em bash: export CC=gcc
 2- Instalar g2ctl
 
 Modificar onde houver $wgrib2='wgrib2'; para $wgrib2='/usr/local/grib2/wgrib2/wgrib2';
+
 Alterar as permissoes do arquivo: sudo chmod 755 g2ctl.pl
+
 Copiar p/ o bin de todos os usuários: sudo cp g2ctl.pl /usr/bin
 
 ********************** Gerando ctl de gfs.grib2 ********************** 
@@ -35,7 +37,9 @@ No terminal: gribmap -iv gfs.t00z.pgrb2.0p25.f000.ctl
 3 - Instalar geraDP
 
 Na pasta dprep do BRAMS, descompactar: tar xvzf geraDP.tgz
+
 Copiar os arquivos gfs (grib2, ctl e idx) para esta mesma pasta (dprep)
+
 Modificações obrigatórias do geraDP.ini*: ctl_file_name=o nome do seu ctl aqui
                                           wind_u_varname='UGRDprs'
                                           wind_v_varname='VGRDprs'
