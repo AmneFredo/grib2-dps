@@ -39,16 +39,14 @@ geraDP.tgz.
 >tar xvzf geraDP.tgz
 
 - Copiar os arquivos gfs (grib2, ctl e idx) para esta mesma pasta (dprep)
-- Modificações obrigatórias do geraDP.ini*:
+- Modificações obrigatórias do geraDP.ini (para arquivos gfs nomads. Nomes definidos nos arquivos ctl, gerados no item 2):
 
->ctl_file_name=o nome do seu ctl aqui
+>ctl_file_name=o nome do seu ctl aqui;
 >wind_u_varname='UGRDprs'
 >wind_v_varname='VGRDprs'
 >temperature_varname='TMPprs'
 >geo_varname='HGTprs'
 >ur_varname='RHprs' 
-                                       
-* para arquivos gfs nomads. Nomes definidos nos arquivos ctl, gerados no item 2.  
 
 4 - EXTRA: 
 - Modificar o caminho da opção IAPR no RAMSIN, para rodada no modelo BRAMS. 
