@@ -3,8 +3,8 @@ Como transformar gfs (grib2) em dp (brams) do início [30/09/2019]
 
 Sugestão de download do gfs: https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/
 
-Descompactar arquivos.tar.xz: 
->tar xvzf arquivos.tar.xz 
+Descompactar arquivos.tgz: 
+>tar xvzf arquivos.tgz 
 
 Após descompatar, trÊs arquivos surgirão: 
 wgrib.tgz, 
