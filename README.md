@@ -15,8 +15,8 @@ Descompactar: tar xvzf wgrib2.tgz
 Mover para /usr/local: mv grib2 /usr/local
 Para ambiente em bash: 
 
-export CC=gcc
-export FC=gfortran
+export CC=gcc;
+export FC=gfortran;
 make
 
 2- Instalar g2ctl
