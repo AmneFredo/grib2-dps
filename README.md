@@ -29,7 +29,8 @@ geraDP.tgz.
 
 - Para utilizar no geraDP:
 
-    - Gerar um idx: gribmap -iv gfs.t00z.pgrb2.0p25.f000.ctl
+    - Gerar um idx: 
+>gribmap -iv gfs.t00z.pgrb2.0p25.f000.ctl
 
 3 - Instalar geraDP
 
@@ -40,12 +41,12 @@ geraDP.tgz.
 - Copiar os arquivos gfs (grib2, ctl e idx) para esta mesma pasta (dprep)
 - Modificações obrigatórias do geraDP.ini*:
 
-->ctl_file_name=o nome do seu ctl aqui
-->wind_u_varname='UGRDprs'
-->wind_v_varname='VGRDprs'
-->temperature_varname='TMPprs'
-->geo_varname='HGTprs'
-->ur_varname='RHprs' 
+>ctl_file_name=o nome do seu ctl aqui
+>wind_u_varname='UGRDprs'
+>wind_v_varname='VGRDprs'
+>temperature_varname='TMPprs'
+>geo_varname='HGTprs'
+>ur_varname='RHprs' 
                                        
 * para arquivos gfs nomads. Nomes definidos nos arquivos ctl, gerados no item 2.  
 
