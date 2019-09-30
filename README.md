@@ -11,9 +11,9 @@ geraDP.tgz.
 
 
 1- Instalar wgrib2
-Descompactar: tar xvzf wgrib2.tgz
-Mover para /usr/local: mv grib2 /usr/local
-Para ambiente em bash: 
+- Descompactar: tar xvzf wgrib2.tgz
+- Mover para /usr/local: mv grib2 /usr/local
+- Para ambiente em bash: 
 
 export CC=gcc;
 export FC=gfortran;
